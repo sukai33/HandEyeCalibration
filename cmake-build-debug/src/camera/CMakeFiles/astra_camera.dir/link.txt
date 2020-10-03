@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libastra_camera.a  CMakeFiles/astra_camera.dir/AstraCamera.cpp.o
+/usr/bin/ranlib ../../../build/lib/libastra_camera.a

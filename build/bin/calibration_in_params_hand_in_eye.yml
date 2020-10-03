@@ -1,0 +1,22 @@
+%YAML:1.0
+---
+calibration_time: "Sat Oct  3 15:51:43 2020"
+frame_count: 20
+image_width: 1280
+image_height: 720
+patternSize: [ 6, 9 ]
+square_size: 20.
+rms: 1.7038778403788674e-01
+cameraMatrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.1516376997945224e+03, 0., 6.3582596504547428e+02, 0.,
+       1.1525810833234768e+03, 3.6091317600596818e+02, 0., 0., 1. ]
+distCoeffs: !!opencv-matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [ 2.1841023299777287e-01, -1.0831308723906015e+00,
+       -1.5882392294982871e-03, 2.2294254146181442e-03,
+       2.2391622626422989e+00 ]

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libkinect_camera.a  CMakeFiles/kinect_camera.dir/KinectCamera.cpp.o
+/usr/bin/ranlib ../../../build/lib/libkinect_camera.a

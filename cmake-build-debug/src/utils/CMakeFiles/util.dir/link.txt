@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libutil.a  CMakeFiles/util.dir/Rotation3DUtils.cpp.o
+/usr/bin/ranlib ../../../build/lib/libutil.a

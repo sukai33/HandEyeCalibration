@@ -1,0 +1,71 @@
+# orbbec_hand Plugin Settings
+
+[handtracker]
+processingSizeWidth = 160
+processingSizeHeight = 120
+
+[depthutility]
+depthSmoothingFactor = 0.05 #float
+velocityThresholdFactor = 0.005 #float
+maxDepthJumpPercent = 0.1 #float
+erodeSize = 1
+depthAdjustmentFactor = 2.5 #float
+minDepth = 500.0 #float
+maxDepth = 4000.0 #float
+
+[pointprocessor]
+maxMatchDistLostActive = 500.0 #mm #float
+maxMatchDistDefault = 500.0 #mm #float
+steadyDeadBandRadius = 75.0 #mm #float
+maxInactiveFramesForCandidatePoints = 60
+maxInactiveFramesForLostPoints = 15
+maxInactiveFramesForActivePoints = 480
+pointSmoothingFactor = 0.5 #float
+pointDeadBandSmoothingFactor = 0.05 #float
+pointSmoothingDeadZone = 50.0 #mm #float
+maxFailedTestsInProbation = 5
+probationFrameCount = 30
+maxFailedTestsInProbationActivePoints = 3
+secondChanceMinDistance = 100.0 #float
+mergePointDistance = 100.0 #mm #float
+maxhandpointUpdatesPerFrame = 10
+
+[segmentation]
+segmentationBandwidthDepthNear = 500.0 #mm #float
+segmentationBandwidthDepthFar = 100.0 #mm #float
+maxSegmentationDist = 250.0 #mm #float
+heightScoreFactor = 0.5 #float
+depthScoreFactor = 1000.0 #float
+targetEdgeDistance = 40.0 #mm #float
+edgeDistanceScoreFactor = 100.0 #float
+pointInertiaFactor = 40.0 #float
+pointInertiaRadius = 40.0 #mm #float
+maxDepthToDownscaleTestPass = 1300.0 #mm #float
+
+[areatest]
+areaBandwidth = 150.0 #mm #float
+areaBandwidthDepth = 100.0 #mm #float
+minArea = 3000.0 #mm^2 #float
+maxArea = 35000.0 #mm^2 #float
+
+[naturaledgetest]
+naturalEdgeBandwidth = 150.0 #mm #float
+minPercentNaturalEdges = 0.8 #float
+
+[circumferencetest]
+foregroundRadius1 = 75.0 #float
+foregroundRadius2 = 150.0 #float
+foregroundRadiusMinPercent1 = 0.08 #float
+foregroundRadiusMinPercent2 = 0.04 #float
+foregroundRadiusMaxPercent1 = 0.35 #float
+foregroundRadiusMaxPercent2 = 0.15 #float
+
+[trajectoryanalyzer]
+maxSteadyDelta = 5.0 #float
+minSteadyFrames = 15
+minHeadingDist = 125
+deltaHeadingFactor = 0.5 #float
+minHeadingDiffForInflection = 135.0 #float
+maxHeadingDiffForContinuation = 45.0 #float
+minWaveInflectionsForGesture = 2
+maxFramesBetweenInflections = 90

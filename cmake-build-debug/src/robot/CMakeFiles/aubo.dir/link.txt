@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../build/lib/libaubo.a  CMakeFiles/aubo.dir/Robot.cpp.o
+/usr/bin/ranlib ../../../build/lib/libaubo.a

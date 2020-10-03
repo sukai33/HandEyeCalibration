@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HandEyeCalibration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\robot\;CMake Files\src\tinyxml\;CMake Files\src\utils\;CMake Files\src\camera\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandEyeCalibration">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 HandEyeCalibration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandEyeCalibration/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 HandEyeCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aubo">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libaubo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 aubo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="aubo/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libaubo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 aubo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/robot/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libtinyxml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 tinyxml"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libtinyxml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 tinyxml/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/tinyxml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 util"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libutil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 util/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinect_camera">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libkinect_camera.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 kinect_camera"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinect_camera/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libkinect_camera.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 kinect_camera/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astra_camera">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libastra_camera.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 astra_camera"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="astra_camera/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/lib/libastra_camera.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 astra_camera/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AstraMain">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/AstraMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 AstraMain"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AstraMain/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/AstraMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 AstraMain/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/camera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestXml">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/TestXml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/test/../tinyxml"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 TestXml"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestXml/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/TestXml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/test/../tinyxml"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 TestXml/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeVerify2">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeVerify2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeVerify2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeVerify2/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeVerify2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeVerify2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCalibration">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCalibration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCalibration/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCapture">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCapture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCapture"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCapture/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCapture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCapture/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicCalibration2">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicCalibration2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicCalibration2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicCalibration2/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicCalibration2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicCalibration2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicFromFiles">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicFromFiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicFromFiles"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicFromFiles/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicFromFiles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicFromFiles/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCaptureAuto">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCaptureAuto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCaptureAuto"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCaptureAuto/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCaptureAuto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCaptureAuto/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCapture">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCapture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCapture"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCapture/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCapture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCapture/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicCalibration">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicCalibration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CameraIntrinsicCalibration/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/CameraIntrinsicCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 CameraIntrinsicCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCalibration">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCalibration"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeCalibration/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeVerify2">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeVerify2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeVerify2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeVerify2/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeVerify2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeVerify2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeVerify">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeVerify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeVerify"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandToEyeVerify/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandToEyeVerify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandToEyeVerify/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCaptureAuto">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCaptureAuto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCaptureAuto"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HandInEyeCaptureAuto/fast">
+				<Option output="/home/sk/workspas/HandEyeCalibration/build/bin/HandInEyeCaptureAuto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sk/workspas/HandEyeCalibration/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/OpenCV-3.4.9/include/opencv/opencv"/>
+					<Add directory="/home/sk/freenect2/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/libconfig/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotController/Header"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/aubo_dependents/robotSDK/inc"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/common"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/3rdparty/astra/include"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./camera"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./robot"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./tinyxml"/>
+					<Add directory="/home/sk/workspas/HandEyeCalibration/src/./utils"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 HandInEyeCaptureAuto/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sk/workspas/HandEyeCalibration/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/main.cpp">
+			<Option target="HandEyeCalibration"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/CameraIntrinsicCalibration.cpp">
+			<Option target="CameraIntrinsicCalibration"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/CameraIntrinsicCalibration2.cpp">
+			<Option target="CameraIntrinsicCalibration2"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/CameraIntrinsicFromFiles.cpp">
+			<Option target="CameraIntrinsicFromFiles"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandInEyeCalibration.cpp">
+			<Option target="HandInEyeCalibration"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandInEyeCapture.cpp">
+			<Option target="HandInEyeCapture"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandInEyeCaptureAuto.cpp">
+			<Option target="HandInEyeCaptureAuto"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandInEyeVerify2.cpp">
+			<Option target="HandInEyeVerify2"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandToEyeCalibration.cpp">
+			<Option target="HandToEyeCalibration"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandToEyeCapture.cpp">
+			<Option target="HandToEyeCapture"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandToEyeCaptureAuto.cpp">
+			<Option target="HandToEyeCaptureAuto"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandToEyeVerify.cpp">
+			<Option target="HandToEyeVerify"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/HandToEyeVerify2.cpp">
+			<Option target="HandToEyeVerify2"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/AstraCamera.cpp">
+			<Option target="astra_camera"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/AstraCamera.h">
+			<Option target="astra_camera"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/AstraMain.cpp">
+			<Option target="AstraMain"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/KinectCamera.cpp">
+			<Option target="kinect_camera"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/KinectCamera.h">
+			<Option target="kinect_camera"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/robot/Robot.cpp">
+			<Option target="aubo"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/robot/Robot.h">
+			<Option target="aubo"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/test/TestXml.cpp">
+			<Option target="TestXml"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/tinyxml/XmlUtil.h">
+			<Option target="tinyxml"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/tinyxml/tinyxml2.cpp">
+			<Option target="tinyxml"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/tinyxml/tinyxml2.h">
+			<Option target="tinyxml"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/utils/Rotation3DUtils.cpp">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/utils/Rotation3DUtils.h">
+			<Option target="util"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/cmake/FindAstra.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/cmake/FindAuBo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/cmake/FindOpenCV.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/cmake/Findfreenect2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/robot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\robot\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/tinyxml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\tinyxml\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\utils\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/camera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\camera\"/>
+		</Unit>
+		<Unit filename="/home/sk/workspas/HandEyeCalibration/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
